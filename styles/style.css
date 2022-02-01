@@ -425,7 +425,7 @@
 
 .footer__columns {
   display: flex;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .footer__column_hours {
@@ -457,7 +457,8 @@
 
 .footer__list-item {
   justify-self: stretch;
-  margin-top: 5%;
+  margin-top: 7%;
+  margin-bottom: 0;
 }
 
 .footer__column-heading {
@@ -476,7 +477,10 @@
 
 .footer__social-icon {
   color: #525151;
+  margin-right: 10%;
+  border-radius: 50%;
 }
 
 .footer__copyrights {
+  margin-bottom: 0;
 }
