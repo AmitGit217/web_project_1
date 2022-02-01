@@ -1,9 +1,11 @@
 .page {
   min-width: 1100px;
-  max-width: 2000px;
+  max-width: 1600px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header {
@@ -29,7 +31,7 @@
   height: 60px;
 }
 
-.nav-links {
+.nav__links {
   margin-top: 8px;
   display: flex;
   align-items: center;
@@ -62,7 +64,7 @@
 
 .header__image {
   z-index: 1;
-  max-width: 646px;
+  max-width: 636px;
   position: absolute;
   right: 20px;
   top: 135px;
@@ -117,33 +119,13 @@
 .staff__card-container {
   display: flex;
   max-width: 760px;
-  margin: 68px auto;
+  margin: 68px auto 0;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: baseline;
   row-gap: 40px;
 }
-.card__intro_center-up {
-  margin: 68px auto;
-  text-align: center;
-  font-style: italic;
-}
-.card__text_left {
-  text-align: left;
-  width: 100%;
-  height: 10%;
-}
-.card__img {
-  margin-top: 40%;
-  width: 85%;
-  height: 45%;
-  border-radius: 2px;
-}
-.card__img:hover {
-  opacity: 0.8;
-  transition: 0.1s;
-  transform: scale(1.1);
-}
+
 .card {
   background-color: #fff;
   border-radius: 6px;
@@ -221,9 +203,11 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  width: 24px;
+  height: 24px;
 }
 
-.event-info__icon_calendar {
+.event-info__icon_type_calendar {
   background-image: url(../images/icon_calendar.svg);
   width: 24px;
   height: 24px;
@@ -251,6 +235,7 @@
 }
 /* Add the hover state styles for .events__more here */
 .events__more:hover {
+  color: #1f69c9;
 }
 .events__cover {
   flex-grow: 1;
@@ -273,7 +258,7 @@
 
 .person_name_feynman {
   left: 319px;
-  top: 30px;
+  top: -30px;
 }
 
 .person_name_burbidge {
@@ -297,7 +282,7 @@
 }
 
 .person__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person__image_size_l {
@@ -337,6 +322,7 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
+  gap: 40px;
 
   display: flex;
   justify-content: center;
@@ -345,7 +331,6 @@
 
 .step {
   width: 220px;
-  margin-right: 40px;
 }
 
 .step__title {
@@ -382,6 +367,8 @@
   max-width: 154px;
   margin-right: 120px;
   z-index: 1;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .about__content {
@@ -393,6 +380,7 @@
 }
 
 .about__paragraph {
+  margin-top: 0;
   margin-bottom: 32px;
 }
 
@@ -428,6 +416,7 @@
 .footer__column_social {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -452,6 +441,7 @@
 
 .footer__column-heading {
   margin-top: 0;
+  margin-bottom: 8%;
 }
 
 .footer__column-link {
@@ -459,18 +449,20 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
-  float: right;
-  margin-right: 1%;
+  display: flex;
 }
 .footer__column-link:hover {
   color: #c1c1c1;
 }
 
 .footer__social-icon {
-  margin-left: 13%;
-  height: 18px;
+  margin-right: 9px;
+  height: 20px;
 }
 
 .footer__copyrights {
   margin-bottom: 0;
+}
+.footer__column_margin {
+  margin-right: auto;
 }
