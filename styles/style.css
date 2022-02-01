@@ -425,29 +425,24 @@
 
 .footer__columns {
   display: flex;
-  margin-bottom: 8%;
-  justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .footer__column_hours {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  margin-right: 202px;
+  margin-right: 100px;
 }
 
 .footer__column_social {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  position: absolute;
-  right: 102px;
-  margin-left: 100px;
 }
 
 .footer__logo {
   width: 153px;
   height: 35px;
+  margin-right: auto;
 }
 
 .footer__list {
@@ -461,7 +456,8 @@
 }
 
 .footer__list-item {
-  margin-bottom: 7%;
+  justify-self: stretch;
+  margin-top: 5%;
 }
 
 .footer__column-heading {
@@ -479,7 +475,6 @@
 }
 
 .footer__social-icon {
-  padding-right: 10%;
   color: #525151;
 }
 
