@@ -114,7 +114,7 @@
   margin: 24px 0 0;
 }
 
-/ .staff__card-container {
+.staff__card-container {
   display: flex;
   max-width: 760px;
   margin: 68px auto;
@@ -447,9 +447,7 @@
 }
 
 .footer__list-item {
-  justify-self: stretch;
   margin-top: 7%;
-  margin-bottom: 0;
 }
 
 .footer__column-heading {
@@ -461,15 +459,16 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  float: right;
+  margin-right: 1%;
 }
 .footer__column-link:hover {
   color: #c1c1c1;
 }
 
 .footer__social-icon {
-  color: #525151;
-  margin-right: 10%;
-  border-radius: 50%;
+  margin-left: 13%;
+  height: 18px;
 }
 
 .footer__copyrights {
